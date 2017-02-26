@@ -1,0 +1,43 @@
+{
+  "name": "react_redux_server_wesocket",
+  "version": "1.0.0",
+  "description": "react redux server wesocket",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js  --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickTaporuk/react_redux_server_wesocket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickTaporuk/react_redux_server_wesocket/issues"
+  },
+  "homepage": "https://github.com/NickTaporuk/react_redux_server_wesocket#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.6.0",
+    "mocha": "^3.2.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "redux": "^3.6.0",
+    "socket.io": "^1.7.3"
+  }
+}
