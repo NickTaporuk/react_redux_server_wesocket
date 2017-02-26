@@ -1,2 +1,2 @@
-# react_redux_server_wesocket
-react redux server wesocket
+# react_redux_server_websocket
+react redux server websocket
